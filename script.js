@@ -5,6 +5,9 @@ var btn=document.getElementById("btn").addEventListener('click' , ()=>{
     
     var url=`https://restcountries.com/v3.1/name/${inp}`;
      fetch(url).then(response=>{
+         if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
       return response.json();
     }).then(data=>{
         console.log(data);
@@ -61,9 +64,12 @@ console.log(thelast);
   container.innerHTML=code1;
         }
         
- });
+ }).catch(error => {
+    container.innerHTML='<h1>No Result Found</h1>';
+  });
 
 });
+
 
 
 
