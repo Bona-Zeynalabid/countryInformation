@@ -92,8 +92,8 @@ body{
     font-weight: lighter;
 } 
 .right img{
-    width: 400px;
-    height: 200px;
+    width: 280px;
+    height: 150px;
     border: 1px solid black;
     margin-bottom: 40px;
     /* padding: 20px; */
@@ -209,5 +209,6 @@ footer{
         justify-content:center;
 }
 }
+
 
 
