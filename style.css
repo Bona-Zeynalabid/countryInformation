@@ -23,6 +23,7 @@ body{
 .head input{
     width: 400px;
     height: 40px;
+    margin-right:9px;
     
     
 }
@@ -88,7 +89,6 @@ body{
 } 
 .left h3{
     font-size: 16px;
-    font-style: italic;
     font-weight: lighter;
 } 
 .right img{
@@ -207,6 +207,7 @@ footer{
         
 }
 }
+
 
 
 
