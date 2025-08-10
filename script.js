@@ -1,7 +1,8 @@
 var container=document.getElementById("container");
 var btn=document.getElementById("btn").addEventListener('click' , ()=>{
-    try{
+    
     var inp=document.getElementById("input").value;
+    try{
     var url=`https://restcountries.com/v3.1/name/${inp}`;
      fetch(url).then(response=>{
       return response.json();
@@ -62,9 +63,10 @@ console.log(thelast);
         
  });
     }catch(){
-        container.innerHTML="<h1>No Result Found</h1>";
+        container.innerHTML=`<h1>No Result Found</h1>`;
     };
 })
+
 
 
 
