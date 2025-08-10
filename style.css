@@ -76,6 +76,7 @@ body{
     justify-content: center; 
     align-items: center;
     border-radius: 10px;
+    
 }
 .right h1{
     display: block;
@@ -89,7 +90,7 @@ body{
 } 
 .left h3{
     font-size: 16px;
-    font-weight: lighter;
+    
 } 
 .right img{
     width: 280px;
@@ -111,6 +112,7 @@ body{
 }
 span{
     font-weight: bold;
+    color:black;
 }
 footer{
     width: 100%;
@@ -207,6 +209,7 @@ footer{
         
 }
 }
+
 
 
 
