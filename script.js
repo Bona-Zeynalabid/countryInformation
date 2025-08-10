@@ -1,6 +1,6 @@
 var container=document.getElementById("container");
 var btn=document.getElementById("btn").addEventListener('click' , ()=>{
-    try{
+    
     var inp=document.getElementById("input").value;
     
     var url=`https://restcountries.com/v3.1/name/${inp}`;
@@ -62,9 +62,9 @@ console.log(thelast);
         }
         
  });
-    }catch(error){
-        container.innerHTML='<h1>No Result Found</h1>';}
+
 });
+
 
 
 
