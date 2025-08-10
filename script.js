@@ -1,5 +1,6 @@
 var container=document.getElementById("container");
 var btn=document.getElementById("btn").addEventListener('click' , ()=>{
+    try{
     var inp=document.getElementById("input").value;
     var url=`https://restcountries.com/v3.1/name/${inp}`;
      fetch(url).then(response=>{
@@ -60,6 +61,10 @@ console.log(thelast);
         }
         
  });
+    }catch(){
+        container.innerText="No Result Found";
+    };
 })
+
 
 
