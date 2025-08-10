@@ -62,9 +62,10 @@ console.log(thelast);
         
  });
     }catch(){
-        container.innerText="No Result Found";
+        container.innerHTML="<h1>No Result Found</h1>";
     };
 })
+
 
 
 
