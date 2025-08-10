@@ -64,6 +64,7 @@ body{
     margin-right: 20px;
     border-radius: 10px;
     padding: 10px;
+    over-flow:hidden;
 }
 .right{
     width: 500px;
@@ -89,7 +90,7 @@ body{
     margin:10px;
 } 
 .left h3{
-    font-size: 16px;
+    font-size: 14px;
     color:green;
     
 } 
@@ -210,6 +211,7 @@ footer{
         
 }
 }
+
 
 
 
