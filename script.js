@@ -64,8 +64,9 @@ console.log(thelast);
  });
     }catch(){
         container.innerHTML=`<h1>No Result Found</h1>`;
-    };
+    }
 })
+
 
 
 
