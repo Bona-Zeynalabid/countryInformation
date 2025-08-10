@@ -39,12 +39,12 @@ console.log(thelast);
                 <h1>${data[i].name.common}</h1>
                 <hr>
                 <h3><span>Official Name</span>: ${data[i].name.official}</h3>
-                <h3><span>area</span>: ${data[i].area} km<sup>2</sup></h3>
+                <h3><span>Area</span>: ${data[i].area} km<sup>2</sup></h3>
                 <h3><span>Capital City</span>: ${data[i].capital}</h3>
                 <h3><span>Poppulation</span>: ${data[i].population}</h3>
                 <h3><span>Currency</span>: ${currencyName}</h3>
                 <h3><span>Official Language</span>: ${languageList}</h3>
-                <h3><span>continent</span>: ${data[i].continents}</h3>
+                <h3><span>Continent</span>: ${data[i].continents}</h3>
                 <h3><span>Subregion</span>: ${data[i].subregion}</h3>
                 <h3><span>UN Member</span>: ${data[i].unMember}</h3>
                 <h3><span>Native Name</span>: ${thelast}</h3>
@@ -69,6 +69,7 @@ console.log(thelast);
   });
 
 });
+
 
 
 
