@@ -196,5 +196,18 @@ footer{
     .head input{
     width: 200px;
     height: 40px;
+    }
+    .head div{
+    width: auto;
+    height: auto;
+    background-color: black;
+    margin-top: 15px;
+    transition: all 2s ease;
+    display:flex;
+        flex-direction:column;
+        align-item:center;
+        justify-content:center;
 }
+}
+
 
