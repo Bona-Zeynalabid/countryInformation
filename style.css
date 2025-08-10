@@ -204,11 +204,10 @@ footer{
     margin-top: 15px;
     transition: all 2s ease;
     display:flex;
-        flex-direction:column;
-        align-item:center;
-        justify-content:center;
+        
 }
 }
+
 
 
 
