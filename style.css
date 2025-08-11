@@ -34,6 +34,7 @@ body{
     border: 2px solid white;
     color: white;
     background-color:black;
+    font-weight:bold;
     
 }
 .head div{
@@ -215,6 +216,7 @@ footer{
         
 }
 }
+
 
 
 
